@@ -1,5 +1,6 @@
 import React from "react"
 import Home from "./pages/home"
+import AboutMe from "./pages/about-me"
 
 
 export default function App() {
@@ -10,6 +11,9 @@ export default function App() {
           <div className="row home-view">
             <Home />
           </div>
+          <div className="section-view">
+              <AboutMe />
+            </div>
         </div>
       </div>
     </div>
