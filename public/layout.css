@@ -1,0 +1,286 @@
+.col-2 {
+    flex-basis: 100%;
+}
+
+.project-layout {
+    height: 525px;
+}
+
+.body-layout {
+    max-width: 1200px;
+}
+
+.home-hi {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.title-name {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.home-name {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.home-descript {
+    line-height: 1.5;
+    font-size: 1rem;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul.skills>li {
+    font-size: 0.75rem;
+    margin-bottom: 0;
+}
+
+hr {
+    width: 50%;
+}
+
+.hide-menu,
+.show-sides {
+    display: none !important;
+}
+
+.menu-sub,
+.drop-menu {
+    display: flex !important;
+}
+
+.col-4-10 {
+    flex-basis: 100%;
+}
+
+.col-6-10 {
+    flex-basis: 100%;
+}
+
+.home-title,
+.head-num {
+    justify-content: center;
+}
+
+.selfie {
+    max-width: 60%;
+    border-radius: 50%;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.sjsu-logo {
+    transform: scale(1.4);
+}
+
+.lfz-logo,
+.skyline-logo,
+.stocks-logo {
+    transform: scale(1.7);
+}
+
+.third-street-logo {
+    transform: scale(3.7);
+}
+
+@media screen and (min-width: 375px) {
+
+    ul.skills>li,
+    .home-hi {
+        font-size: 0.8rem;
+    }
+
+    .project-layout {
+        height: 520px;
+    }
+
+    .title-name,
+    .home-name {
+        font-size: 2rem;
+    }
+
+    .home-descript {
+        line-height: 1.5;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .col-2 {
+        flex-basis: 100%;
+    }
+
+    .project-layout {
+        height: 475px;
+    }
+
+    ul.skills>li,
+    .home-hi {
+        font-size: 0.75rem;
+    }
+
+    .home-descript {
+        line-height: 1.5;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    hr {
+        width: 65%;
+    }
+
+    .vertical-timeline-element-content p {
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .col-2 {
+        flex-basis: 50%;
+    }
+
+    .project-layout {
+        height: 550px;
+    }
+
+    .home-title,
+    .head-num {
+        justify-content: flex-start;
+    }
+
+    .home-descript {
+        line-height: 1.5;
+        font-size: 1.2rem;
+        width: 80%;
+        margin-top: 15px;
+        text-align: start;
+        margin-left: 0;
+    }
+
+    .col-4-10 {
+        flex-basis: 40%;
+    }
+
+    .col-6-10 {
+        flex-basis: 60%;
+    }
+
+    .body-layout {
+        margin: 0 auto;
+        padding-left: 80px;
+        padding-right: 70px;
+    }
+
+    .show-sides {
+        display: flex !important;
+    }
+
+    .menu-sub {
+        display: none !important;
+    }
+
+    .options {
+        margin-right: 20px;
+        font-size: 0.75rem;
+    }
+
+    button {
+        font-size: 0.75rem;
+    }
+
+    .home-hi {
+        font-size: 1.75vw;
+        margin-bottom: 30px;
+    }
+
+    .title-name,
+    .home-name {
+        font-size: 6.5vw;
+        margin: 0;
+    }
+
+    hr {
+        width: 250px;
+    }
+
+    .about-descript {
+        font-size: 18px;
+    }
+
+    .vertical-timeline-element-content p {
+        font-size: 18px !important;
+    }
+
+    .order-1 {
+        order: 2;
+    }
+
+    .order-2 {
+        order: 1;
+    }
+
+    .header {
+        font-size: 2rem;
+    }
+
+    .numbering {
+        font-size: 1.5rem;
+    }
+
+    .selfie {
+        max-width: 80%;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .project-layout {
+        height: 525px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .project-layout {
+        height: 500px;
+    }
+
+    .home-hi {
+        margin-top: 0;
+        font-size: 15px;
+    }
+
+    .title-name,
+    .home-name {
+        font-size: 70px;
+    }
+
+    .home-descript {
+        line-height: 1.5;
+        font-size: 20px;
+        width: 70%;
+    }
+
+    hr {
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 1170px) {
+    .sjsu-logo {
+        transform: scale(2);
+    }
+
+    .lfz-logo,
+    .skyline-logo,
+    .stocks-logo {
+        transform: scale(2.4);
+    }
+
+    .third-street-logo {
+        transform: scale(5);
+    }
+}
