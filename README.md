@@ -2,6 +2,8 @@
 
 A complete rebuild of my portfolio using TypeScript!
 
+Check out my project! https://TypeScript.ACDesigns.dev/
+
 ## Technologies
 - HTML5
 - CSS3
