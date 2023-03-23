@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "vite start",
+    "start": "tsc && vite start",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
