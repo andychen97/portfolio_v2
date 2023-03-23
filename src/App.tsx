@@ -1,4 +1,5 @@
 import React from "react"
+import Navbar from "./components/navbar"
 import Home from "./pages/home"
 import AboutMe from "./pages/about-me"
 import Experience from "./pages/experience"
@@ -11,6 +12,11 @@ import SideEmail from "./components/side-email"
 export default function App() {
   return (
     <div>
+      <div className="row">
+        <div className="col-1">
+          <Navbar />
+        </div>
+      </div>
       <div className="body-layout">
         <div className="row">
           <div className="col-1">
@@ -28,6 +34,15 @@ export default function App() {
             </div>
             <div className="section-view">
               <Contact />
+            </div>
+            <div className="row text-center">
+              <div className="col-1">
+                <p className='grey-text footer'>
+                  V2 rebuilt with React & TypeScript.<br />
+                  Checkout the original at&nbsp;
+                  <a href="https://ACDesigns.dev" className='links green-text' target="_blank" rel="noreferrer" >ACDesigns.dev</a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
