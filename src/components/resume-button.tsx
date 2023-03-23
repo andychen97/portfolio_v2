@@ -1,5 +1,4 @@
 import React from 'react';
-import resume from '../../src/resume.pdf'
 
 export default function ResumeButton() {
     return (
@@ -8,7 +7,7 @@ export default function ResumeButton() {
 }
 
 function Resume() {
-    fetch('/../../src/resume.pdf')
+    fetch('/resume.pdf')
         .then(response => {
             response.blob()
                 .then(blob => {
