@@ -346,6 +346,7 @@ ul.skills>li {
     font-size: 12px;
     font-family: SFMono, sans-serif;
     letter-spacing: 0.5px;
+    line-height: 1.5;
 }
 
 .say-hello {
