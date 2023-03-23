@@ -1,6 +1,7 @@
 import React from "react"
 import Home from "./pages/home"
 import AboutMe from "./pages/about-me"
+import Projects from "./pages/projects"
 import Contact from "./pages/contact-me"
 
 
@@ -14,6 +15,9 @@ export default function App() {
           </div>
           <div className="section-view">
             <AboutMe />
+          </div>
+          <div className="section-view">
+            <Projects />
           </div>
           <div className="section-view">
             <Contact />
