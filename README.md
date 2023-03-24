@@ -1,6 +1,6 @@
 # Portfolio V2
 
-A complete rebuild of my portfolio using TypeScript!
+A complete rebuild of my portfolio using TypeScript & React!
 
 Check out my project! https://TypeScript.ACDesigns.dev/
 
